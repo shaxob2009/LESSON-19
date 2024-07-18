@@ -1,0 +1,18 @@
+.about-item {
+  background-color: green;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 50px;
+  background: darkblue;
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  width: 20px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: red;
+}
